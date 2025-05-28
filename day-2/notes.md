@@ -1,5 +1,11 @@
 ## Day 2 Summary
 
+- **Hello-world title test:** Verified Playwright scaffold with `tests/login.spec.js`, asserting the page title “Swag Labs”.
+- **Element-inspection doc:** Raw HTML + locator decisions captured in `day2/element_inspection.md`.
+- **Heading locator note:** Inventory page lacks a semantic `<h1>`; used stable CSS `.title` and asserted `toHaveText('Products')`.
+- **Manual-doc sync:** Updated `login_test_cases.md` Actual & Status = **Pass** for LOGIN_001 and LOGIN_004.
+- **Version control:** Pushed `day-2` branch and opened PR “Day-2: first Playwright automation”.
+
 - **Locators & Element Targeting:**  
   - Inspected the DOM to identify stable, resilient selectors.
   - Used Playwright's recommended locators:  
